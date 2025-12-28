@@ -104,7 +104,7 @@ genai.configure(api_key=MY_API_KEY)
 
 if "chat" not in st.session_state:
 
-    model = genai.GenerativeModel('gemini-1.5-flash')
+    model = genai.GenerativeModel('gemini-1.5-flash')
 
     st.session_state.chat = model.start_chat(history=[])
 
